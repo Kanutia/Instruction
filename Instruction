@@ -1,29 +1,47 @@
-# Hello
+# Instructions
+for marktdowns use (.md) in the end of the file name
 
-## highlight text
-text
-
-## lists
-
-*cursive.*
-
-**half fat**
-- element 1
-- element 2
-- element 3
-1. text
-2. text
+## How to use git
 
 git init (initialization)
 
-git add file.txt (files)
+git add file.txt (files adding for tracking)
 
-git add -m "text" (adding a message to the change)
+git commit -m "text" (adding a message to the change)
 
-git commit
+git commit -a 
 
-git status 
+git status (tracking or not, current state) 
 
-git log
+git log (all versions with their comments)
 
-git diff
+git diff (difference between the saved version and the current one)
+
+git checkout (allows to move between the versions and branches)
+
+git branch (allows to see all branches and the current branch)
+
+git branch *branchname* (allows to create a new branch)
+
+git merge *branchname* (merges the information from *branchname* to the current branch)
+
+git branch -d *branchname* (deletes a branch)
+
+git checkout *branchname* (allows to move between branches)
+
+git log -- graph (shows git log in another way)
+
+git push (on the local repository to send change to Github)
+
+git pull (on local repository for getting the changes from Github repository of same file)
+
+git clone *link to repository* (for cloning any repository from Github to local)
+
+## Github usage
+
+1. Copy fork of the interesting you repository
+2. *Git clone* to local repository
+3. Create a branch
+4. Commit changes inside the branch
+5. *Git push* the branch to your Github account
+6. **Pull request** to the owner account
